@@ -10,6 +10,7 @@
 - The source button uses `cpp11::source_cpp()` on C++ files that have `[[cpp11::register]]` decorations (#10387)
 - New *Relative Line Numbers* preference for showing line numbers relative to the current line, rather than the first line (#1774)
 - Upgraded SOCI library dependency from version 4.0.0 to 4.0.3 (#10792)
+- The choice of pipe operator (`magrittr` or native R 4.1+) inserted with the "Insert Pipe Operator" keyboard shortcut can now be configured at the project level as well as the global level (#9409)
 
 #### Find in Files
 
