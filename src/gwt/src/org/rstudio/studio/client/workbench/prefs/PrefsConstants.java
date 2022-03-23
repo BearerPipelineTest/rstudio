@@ -2002,7 +2002,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("C++ template")
     @Key("developmentCppTemplate")
     String developmentCppTemplate();
- 
+
     /**
      * Translated "empty".
      *
@@ -4457,7 +4457,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Cancel")
     @Key("editingCancelShortcuts")
     String editingCancelShortcuts();
-    
+
     /**
      * Translated "Tab width"
      *
@@ -4466,7 +4466,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Tab width")
     @Key("editingTabWidthLabel")
     String editingTabWidthLabel();
-    
+
     /**
      * Translated "Auto-detect code indentation"
      *
@@ -4475,7 +4475,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Auto-detect code indentation")
     @Key("editingAutoDetectIndentationLabel")
     String editingAutoDetectIndentationLabel();
-    
+
     /**
      * Translated "Auto-detect code indentation"
      *
@@ -4484,7 +4484,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("When enabled, the indentation for documents not part of an RStudio project will be automatically detected.")
     @Key("editingAutoDetectIndentationDesc")
     String editingAutoDetectIndentationDesc();
-    
+
     /**
      * Translated "Insert matching parens/quotes"
      *
@@ -4493,16 +4493,16 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Insert matching parens/quotes")
     @Key("editingInsertMatchingLabel")
     String editingInsertMatchingLabel();
-    
+
     /**
      * Translated "Use native pipe operator, |> (requires R 4.1+)"
      *
      * @return translated "Use native pipe operator, |> (requires R 4.1+)"
      */
     @DefaultMessage("Use native pipe operator, |> (requires R 4.1+)")
-    @Key("editingInsertNativePipeOperatorLabel")
-    String editingInsertNativePipeOperatorLabel();
-    
+    @Key("editingUseNativePipeOperatorLabel")
+    String editingUseNativePipeOperatorLabel();
+
     /**
      * Translated "Auto-indent code after paste"
      *
@@ -4511,7 +4511,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Auto-indent code after paste")
     @Key("editingReindentOnPasteLabel")
     String editingReindentOnPasteLabel();
-    
+
     /**
      * Translated "Vertically align arguments in auto-indent"
      *
@@ -4529,7 +4529,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Continue comment when inserting new line")
     @Key("editingContinueCommentsOnNewlineLabel")
     String editingContinueCommentsOnNewlineLabel();
-    
+
     /**
      * Translated "When enabled, pressing Enter will continue comments on new lines. Press Shift + Enter to exit a comment."
      *
@@ -4538,7 +4538,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("When enabled, pressing Enter will continue comments on new lines. Press Shift + Enter to exit a comment.")
     @Key("editingContinueCommentsOnNewlineDesc")
     String editingContinueCommentsOnNewlineDesc();
-    
+
     /**
      * Translated "Enable hyperlink highlighting in editor"
      *
@@ -4547,7 +4547,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Enable hyperlink highlighting in editor")
     @Key("editingHighlightWebLinkLabel")
     String editingHighlightWebLinkLabel();
-    
+
     /**
      * Translated "When enabled, hyperlinks in comments will be underlined and clickable."
      *
@@ -4556,7 +4556,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("When enabled, hyperlinks in comments will be underlined and clickable.")
     @Key("editingHighlightWebLinkDesc")
     String editingHighlightWebLinkDesc();
-    
+
     /**
      * Translated "Surround selection on text insertion:"
      *
@@ -4565,7 +4565,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Surround selection on text insertion:")
     @Key("editingSurroundSelectionLabel")
     String editingSurroundSelectionLabel();
-    
+
     /**
      * Translated "Keybindings:"
      *
@@ -4583,7 +4583,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Focus console after executing from source")
     @Key("editingFocusConsoleAfterExecLabel")
     String editingFocusConsoleAfterExecLabel();
-    
+
     /**
      * Translated "Ctrl+Enter executes:"
      *
@@ -4592,7 +4592,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Ctrl+Enter executes:")
     @Key("editingExecutionBehaviorLabel")
     String editingExecutionBehaviorLabel();
-    
+
     /**
      * Translated "Highlight selected word"
      *
@@ -4601,7 +4601,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Highlight selected word")
     @Key("displayHighlightSelectedWordLabel")
     String displayHighlightSelectedWordLabel();
-    
+
     /**
      * Translated "Highlight selected line"
      *
@@ -4610,7 +4610,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Highlight selected line")
     @Key("displayHighlightSelectedLineLabel")
     String displayHighlightSelectedLineLabel();
-    
+
     /**
       * Translated "Show line numbers"
       *
@@ -4637,7 +4637,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show margin")
     @Key("displayShowMarginLabel")
     String displayShowMarginLabel();
-    
+
     /**
      * Translated "Show whitespace characters"
      *
@@ -4655,7 +4655,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show indent guides")
     @Key("displayShowIndentGuidesLabel")
     String displayShowIndentGuidesLabel();
-    
+
     /**
      * Translated "Blinking cursor"
      *
@@ -4664,7 +4664,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Blinking cursor")
     @Key("displayBlinkingCursorLabel")
     String displayBlinkingCursorLabel();
-    
+
     /**
      * Translated "Allow scroll past end of document"
      *
@@ -4673,8 +4673,8 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Allow scroll past end of document")
     @Key("displayScrollPastEndOfDocumentLabel")
     String displayScrollPastEndOfDocumentLabel();
-    
-    
+
+
     /**
      * Translated "Allow drag and drop of text"
      *
@@ -4683,7 +4683,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Allow drag and drop of text")
     @Key("displayEnableTextDragLabel")
     String displayEnableTextDragLabel();
-    
+
     /**
      * Translated "Fold Style:"
      *
@@ -4692,7 +4692,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Fold Style:")
     @Key("displayFoldStyleLabel")
     String displayFoldStyleLabel();
-    
+
     /**
      * Translated "Ensure that source files end with newline"
      *
@@ -4710,7 +4710,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Strip trailing horizontal whitespace when saving")
     @Key("savingStripTrailingWhitespaceLabel")
     String savingStripTrailingWhitespaceLabel();
-    
+
     /**
      * Translated "Restore last cursor position when opening file"
      *
@@ -4719,7 +4719,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Restore last cursor position when opening file")
     @Key("savingRestoreSourceDocumentCursorPositionLabel")
     String savingRestoreSourceDocumentCursorPositionLabel();
-    
+
     /**
      * Translated "Default text encoding:"
      *
@@ -4746,7 +4746,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Automatically save when editor loses focus")
     @Key("savingAutoSaveOnBlurLabel")
     String savingAutoSaveOnBlurLabel();
-    
+
     /**
      * Translated "When editor is idle:"
      *
@@ -4755,7 +4755,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("When editor is idle:")
     @Key("savingAutoSaveOnIdleLabel")
     String savingAutoSaveOnIdleLabel();
-    
+
     /**
      * Translated "Idle period:"
      *
@@ -4764,7 +4764,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Idle period:")
     @Key("savingAutoSaveIdleMsLabel")
     String savingAutoSaveIdleMsLabel();
-    
+
     /**
      * Translated "Show code completions:"
      *
@@ -4773,7 +4773,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show code completions:")
     @Key("completionCodeCompletionLabel")
     String completionCodeCompletionLabel();
-    
+
     /**
      * Translated "Show code completions:"
      *
@@ -4782,7 +4782,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show code completions:")
     @Key("completionCodeCompletionOtherLabel")
     String completionCodeCompletionOtherLabel();
-    
+
     /**
      * Translated "Allow automatic completions in console"
      *
@@ -4791,7 +4791,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Allow automatic completions in console")
     @Key("completionConsoleCodeCompletionLabel")
     String completionConsoleCodeCompletionLabel();
-    
+
     /**
      * Translated "Insert parentheses after function completions"
      *
@@ -4800,7 +4800,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Insert parentheses after function completions")
     @Key("completionInsertParensAfterFunctionCompletion")
     String completionInsertParensAfterFunctionCompletion();
-    
+
     /**
      * Translated "Show help tooltip after function completions"
      *
@@ -4809,7 +4809,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show help tooltip after function completions")
     @Key("completionShowFunctionSignatureTooltipsLabel")
     String completionShowFunctionSignatureTooltipsLabel();
-    
+
     /**
      * Translated "Show help tooltip on cursor idle"
      *
@@ -4818,7 +4818,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show help tooltip on cursor idle")
     @Key("completionShowHelpTooltipOnIdleLabel")
     String completionShowHelpTooltipOnIdleLabel();
-    
+
     /**
      * Translated "Insert spaces around equals for argument completions"
      *
@@ -4827,7 +4827,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Insert spaces around equals for argument completions")
     @Key("completionInsertSpacesAroundEqualsLabel")
     String completionInsertSpacesAroundEqualsLabel();
-    
+
     /**
      * Translated "Use tab for autocompletions"
      *
@@ -4836,7 +4836,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Use tab for autocompletions")
     @Key("completionTabCompletionLabel")
     String completionTabCompletionLabel();
-    
+
     /**
      * Translated "Use tab for multiline autocompletions"
      *
@@ -4845,7 +4845,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Use tab for multiline autocompletions")
     @Key("completionTabMultilineCompletionLabel")
     String completionTabMultilineCompletionLabel();
-    
+
     /**
      * Translated "Show completions after characters entered:"
      *
@@ -4854,7 +4854,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show completions after characters entered:")
     @Key("completionCodeCompletionCharactersLabel")
     String completionCodeCompletionCharactersLabel();
-    
+
     /**
      * Translated "Show completions after keyboard idle (ms):"
      *
@@ -4863,7 +4863,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show completions after keyboard idle (ms):")
     @Key("completionCodeCompletionDelayLabel")
     String completionCodeCompletionDelayLabel();
-    
+
     /**
      * Translated "Show diagnostics for R"
      *
@@ -4872,7 +4872,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show diagnostics for R")
     @Key("diagnosticsShowDiagnosticsRLabel")
     String diagnosticsShowDiagnosticsRLabel();
-    
+
     /**
      * Translated "Enable diagnostics within R function calls"
      *
@@ -4881,7 +4881,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Enable diagnostics within R function calls")
     @Key("diagnosticsInRFunctionCallsLabel")
     String diagnosticsInRFunctionCallsLabel();
-    
+
     /**
      * Translated "Check arguments to R function calls"
      *
@@ -4890,7 +4890,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Check arguments to R function calls")
     @Key("diagnosticsCheckArgumentsToRFunctionCallsLabel")
     String diagnosticsCheckArgumentsToRFunctionCallsLabel();
-    
+
     /**
      * Translated "Check usage of '<-' in function call"
      *
@@ -4899,7 +4899,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Check usage of '<-' in function call")
     @Key("diagnosticsCheckUnexpectedAssignmentInFunctionCallLabel")
     String diagnosticsCheckUnexpectedAssignmentInFunctionCallLabel();
-    
+
     /**
      * Translated "Warn if variable used has no definition in scope"
      *
@@ -4908,7 +4908,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Warn if variable used has no definition in scope")
     @Key("diagnosticsWarnIfNoSuchVariableInScopeLabel")
     String diagnosticsWarnIfNoSuchVariableInScopeLabel();
-    
+
     /**
      * Translated "Warn if variable is defined but not used"
      *
@@ -4917,7 +4917,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Warn if variable is defined but not used")
     @Key("diagnosticsWarnVariableDefinedButNotUsedLabel")
     String diagnosticsWarnVariableDefinedButNotUsedLabel();
-    
+
     /**
      * Translated "Provide R style diagnostics (e.g. whitespace)"
      *
@@ -4926,7 +4926,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Provide R style diagnostics (e.g. whitespace)")
     @Key("diagnosticsStyleDiagnosticsLabel")
     String diagnosticsStyleDiagnosticsLabel();
-    
+
     /**
      * Translated "Prompt to install missing R packages discovered in R source files"
      *
@@ -4935,7 +4935,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Prompt to install missing R packages discovered in R source files")
     @Key("diagnosticsAutoDiscoverPackageDependenciesLabel")
     String diagnosticsAutoDiscoverPackageDependenciesLabel();
-    
+
     /**
      * Translated "Show diagnostics for C/C++"
      *
@@ -4944,7 +4944,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show diagnostics for C/C++")
     @Key("diagnosticsShowDiagnosticsCppLabel")
     String diagnosticsShowDiagnosticsCppLabel();
-    
+
     /**
      * Translated "Show diagnostics for YAML"
      *
@@ -4953,7 +4953,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show diagnostics for YAML")
     @Key("diagnosticsShowDiagnosticsYamlLabel")
     String diagnosticsShowDiagnosticsYamlLabel();
-    
+
     /**
      * Translated "Show diagnostics for JavaScript, HTML, and CSS"
      *
@@ -4962,7 +4962,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show diagnostics for JavaScript, HTML, and CSS")
     @Key("diagnosticsShowDiagnosticsOtherLabel")
     String diagnosticsShowDiagnosticsOtherLabel();
-    
+
     /**
      * Translated "Show diagnostics whenever source files are saved"
      *
@@ -4971,7 +4971,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show diagnostics whenever source files are saved")
     @Key("diagnosticsOnSaveLabel")
     String diagnosticsOnSaveLabel();
-    
+
     /**
      * Translated "Show diagnostics after keyboard is idle for a period of time"
      *
@@ -4980,7 +4980,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Show diagnostics after keyboard is idle for a period of time")
     @Key("diagnosticsBackgroundDiagnosticsLabel")
     String diagnosticsBackgroundDiagnosticsLabel();
-    
+
     /**
      * Translated "Keyboard idle time (ms):"
      *
@@ -4989,7 +4989,7 @@ public interface PrefsConstants extends com.google.gwt.i18n.client.Messages {
     @DefaultMessage("Keyboard idle time (ms):")
     @Key("diagnosticsBackgroundDiagnosticsDelayMsLabel")
     String diagnosticsBackgroundDiagnosticsDelayMsLabel();
-    
+
     /**
      * Translated "Show full path to project in window title"
      *
